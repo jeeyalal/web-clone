@@ -46,3 +46,6 @@ gsap.from("#page1 #video-con",{
     duration:0.5,
     
 })
+
+
+
