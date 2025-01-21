@@ -12,6 +12,52 @@
     color: whitesmoke;
     background-color: black;
 }
+#nav{
+    
+    width: 100%;
+    /* background-color: red; */
+    position: fixed;
+    z-index: 11111;
+    padding: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#nav-1{
+    /* background-color: red; */
+    height: 82px;
+    overflow: hidden;
+
+}
+#nav-1 svg{
+    /* display: block; */
+}
+#nav .nav-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+.link{
+    padding: 10px;
+}
+.icon{
+    padding: 10px;
+}
+#nav .nav-2 .link a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    margin:0 20px;
+    font-family: futura;
+
+}
+#nav .nav-2 .icon i{
+    font-size: 18px;
+    margin:0 30px;
+
+}
 html,body{
     height: 100%;
     width: 100%;
@@ -135,7 +181,6 @@ html,body{
     border-radius: 50%;
     background-color: violet;
     position: fixed;
-   
     transform: translate(-50%,-50%) scale(0);
 }
 
