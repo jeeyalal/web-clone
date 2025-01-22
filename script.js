@@ -49,7 +49,7 @@ function locomotiveAnimation() {
         start: "top 0",
               end: "top -5%",
         scrub: true,
-        markers:true,
+     
       },
     });
     gsap.to("#nav-part2 #links", {
@@ -63,35 +63,11 @@ function locomotiveAnimation() {
         start: "top 0",
         end: "top -5%",
         scrub: true,
-        markers:true,
+     
       },
     });
   }
   navbarAnimation()
-  
-  function videoconAnimation() {
-    var videocon = document.querySelector("#video-container");
-    var playbtn = document.querySelector("#play");
-    videocon.addEventListener("mouseenter", function () {
-      gsap.to(playbtn, {
-        scale: 1,
-        opacity: 1,
-      });
-    });
-    videocon.addEventListener("mouseleave", function () {
-      gsap.to(playbtn, {
-        scale: 0,
-        opacity: 0,
-      });
-    });
-    document.addEventListener("mousemove", function (dets) {
-      gsap.to(playbtn, {
-        left: dets.x - 70,
-        top: dets.y - 80,
-      });
-    });
-  }
-  videoconAnimation();
   
   function loadinganimation() {
     gsap.from("#page1 h1", {
