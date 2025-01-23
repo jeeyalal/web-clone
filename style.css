@@ -73,7 +73,8 @@ body {
 #icons {
     padding: 10px;
     border-radius: 50px;
-    background-color: #F7F7F7;
+    filter: blur(10);
+    background-color: #f7f7f765;
 }
 
 #nav-part2 #icons i {
@@ -201,6 +202,36 @@ body {
 }
 
 
+#page4{
+    min-height: 100vh;
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+#page4 .impact-img-1{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+#page4 .impact .imp{
+    width: 85%;
+    margin-top: 30%;
+    margin-left: 4.5%;
+
+}
+#page4 .impact .imp p{
+    margin-top: 8%;
+    font-size: 18px;
+}
+#page4 .impact-img-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 4% 2%;
+}
 @media (max-width:600px) {
 
     #nav {
